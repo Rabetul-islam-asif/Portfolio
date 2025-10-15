@@ -2,7 +2,7 @@
 
 A stunning Next.js application featuring advanced fluid dynamics smoke animation using WebGL. This project showcases a beautiful, interactive smoke effect that responds to mouse movements and clicks.
 
-## ✨ Features
+##  Features
 
 - **Fluid Smoke Animation**: Real-time fluid dynamics simulation using WebGL
 - **Interactive Effects**: Mouse movement creates smoke trails, clicks generate localized smoke puffs
@@ -10,7 +10,7 @@ A stunning Next.js application featuring advanced fluid dynamics smoke animation
 - **Responsive Design**: Mobile-friendly with touch support
 - **Modern Stack**: Next.js 15, TypeScript, Tailwind CSS, shadcn/ui
 
-## 🎨 Technical Highlights
+##  Technical Highlights
 
 ### Fluid Smoke Component
 - **Physics Simulation**: Navier-Stokes equations for realistic fluid behavior
@@ -27,7 +27,7 @@ A stunning Next.js application featuring advanced fluid dynamics smoke animation
 - **Graphics**: WebGL2/WebGL for fluid simulation
 - **Icons**: Lucide React
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -51,7 +51,6 @@ npm install
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🎮 Interactive Features
 
@@ -68,7 +67,7 @@ npm run dev
 
 ## 📱 Deployment
 
-### Netlify (Recommended for Static Hosting) ⭐
+### Netlify (Recommended for Static Hosting) 
 
 This project is optimized for Netlify static deployment:
 
@@ -98,43 +97,23 @@ netlify deploy --prod --dir=out
 
 ### Other Platforms
 
-#### Vercel (Full-Stack Hosting)
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Vercel will automatically detect and deploy your Next.js app
 
-#### Static Hosting
-The project builds to static files in the `out` directory and can be deployed to any static hosting service:
-- AWS S3 + CloudFront
-- Firebase Hosting
-- Surge.sh
-- GitHub Pages
 
-## 🎯 Customization
+##  Customization
 
 ### Smoke Parameters
 You can modify the smoke behavior in `src/components/FluidSmoke.tsx`:
 
-```typescript
-// Adjust smoke size
-const SPLAT_RADIUS = 0.12; // Smaller = more delicate
 
-// Adjust intensity
-const SPLAT_FORCE = 4200; // Lower = subtler effect
-
-// Modify dissipation rate
-config.DISSIPATION = 0.98; // Higher = fades faster
-```
-
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with [Next.js](https://nextjs.org/)
 - UI components by [shadcn/ui](https://ui.shadcn.com/)
