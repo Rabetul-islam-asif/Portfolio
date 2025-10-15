@@ -52,20 +52,20 @@ npm run dev
 ```
 
 
-## 🎮 Interactive Features
+##  Interactive Features
 
 - **Mouse Movement**: Creates flowing smoke trails that follow your cursor
 - **Click Effects**: Generates localized smoke puffs that stay contained
 - **Responsive**: Works seamlessly on desktop and mobile devices
 
-## 🛠️ Available Scripts
+##  Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
-## 📱 Deployment
+##  Deployment
 
 ### Netlify (Recommended for Static Hosting) 
 
@@ -84,22 +84,6 @@ This project is optimized for Netlify static deployment:
    - **Publish directory**: `out`
    - **Node version**: `18`
 4. Click "Deploy site"
-
-#### Option 3: Netlify CLI
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Build and deploy
-npm run build
-netlify deploy --prod --dir=out
-```
-
-### Other Platforms
-
-
-
-##  Customization
 
 ### Smoke Parameters
 You can modify the smoke behavior in `src/components/FluidSmoke.tsx`:
