@@ -15,11 +15,7 @@ A stunning Next.js application featuring advanced fluid dynamics smoke animation
 ### Fluid Smoke Component
 - **Physics Simulation**: Navier-Stokes equations for realistic fluid behavior
 - **Multi-pass Rendering**: Velocity, color, pressure, and vorticity calculations
-- **Customizable Parameters**:
-  - 40% reduced smoke size for delicate effects
-  - 30% lower intensity for subtle visuals
-  - Localized click effects without spreading
-
+- 
 ### Technology Stack
 - **Framework**: Next.js 15 with App Router
 - **Language**: TypeScript 5
